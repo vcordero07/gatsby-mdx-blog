@@ -8,7 +8,6 @@ const NewsLetter = () => {
           <h2>Get all the latest stories to your inbox</h2>
           <h4>I write to my friends every few weeks</h4>
           <form
-            action=""
             className="contact-form"
             name="testing-contact"
             method="post"
