@@ -8,57 +8,45 @@ category: gatsby
 readTime: 21
 ---
 
-import { Link } from "gatsby";
-import { FiInfo } from "react-icons/fi";
+import { Link } from 'gatsby'
+import { FiInfo } from 'react-icons/fi'
 import { Counter, LikeButton } from '../../components/Complete'
-
-
 
 ## my first mdx file
 
-**Vinyl flannel artisan hashtag wayfarers. Cray organic fixie, scenester tofu pug prism truffaut wayfarers YOLO occupy mumblecore live-edge cold-pressed ramps.** 
-Tacos enamel pin listicle trust fund hexagon ennui. Lyft retro sartorial fingerstache readymade. Pabst freegan shaman, leggings mlkshk palo santo kale chips tbh yuccie. 
+**Vinyl flannel artisan hashtag wayfarers. Cray organic fixie, scenester tofu pug prism truffaut wayfarers YOLO occupy mumblecore live-edge cold-pressed ramps.**
+Tacos enamel pin listicle trust fund hexagon ennui. Lyft retro sartorial fingerstache readymade. Pabst freegan shaman, leggings mlkshk palo santo kale chips tbh yuccie.
 Sartorial gluten-free twee mlkshk taxidermy.
 
 <div className="code">
 
 ```js
-const fName = "bob"
-const lName = "burgers"
+const fName = 'bob'
+const lName = 'burgers'
 ```
 
-
  </div>
-
-
-
-
 
 <div className="nice-text">
 
 <h3>nice text </h3>
 
-<FiInfo className="nice-text-icon"></FiInfo>
+<FiInfo className='nice-text-icon'></FiInfo>
 
 You probably haven't heard of them air plant blue bottle humblebrag af pickled. Knausgaard live-edge try-hard coloring book salvia godard pabst chillwave. Scenester farm-to-table bespoke, sustainable ramps DIY snackwave. Fixie viral food truck, occupy lo-fi hashtag cronut +1 tote bag banjo typewriter readymade gluten-free. Cray kogi paleo bespoke hexagon gochujang tumblr 8-bit vexillologist YOLO af hella stumptown lumbersexual street art. Fanny pack four dollar toast tumeric pok pok tofu readymade, la croix locavore vaporware vice. Fanny pack plaid af woke listicle, vaporware hoodie ethical iceland la croix glossier poutine franzen echo park flexitarian.
 
-
 </div>
 
-
-
-
 <h2> React components </h2>
-
 
 <Counter />
 
 <div className="code">
 
 ```jsx
-import React from "react"
-import styled from "styled-components"
-import { AiOutlineLike } from "react-icons/ai"
+import React from 'react'
+import styled from 'styled-components'
+import { AiOutlineLike } from 'react-icons/ai'
 const LikeButton = () => {
   const [value, setValue] = React.useState(0)
   return (
@@ -81,13 +69,10 @@ const LikeButton = () => {
 
  </div>
 
-
 <LikeButton />
 
-<Link to="/posts" className="btn center-btn">
+![nice image](./images/gatsby-1.png)
+
+<Link to='/posts' className='btn center-btn'>
   all posts
 </Link>
-
-
-
-
