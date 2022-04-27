@@ -67,6 +67,6 @@ const IframeVideoWrapper = styled.div`
 `
 
 Video.defaultProps = {
-  src: 'https://www.youtube.com/embed/xbs7FT7dXYc',
-  title: 'the best cat tv entertainment !',
+  src: 'https://www.youtube.com/embed/W1JOB4WKgwg',
+  title: 'Vetusta Morla - El Imperio Del Sol (Live Performance)',
 }

@@ -73,6 +73,95 @@ const LikeButton = () => {
 <h2>video components</h2>
 <RegVideo />
 <Video />
+<h2>random h2</h2>
+<h3>another random h3</h3>
+<h4>random h4</h4>
+
+`console.log('hallo hallo')`
+
+<h4>blockquote element</h4>
+
+<blockquote display='default'>
+  Subway tile pug locavore thundercats gentrify. Next level beard vegan,
+  literally drinking vinegar kickstarter cray messenger bag venmo roof party.
+</blockquote>
+
+<blockquote display='info'>
+  Subway tile pug locavore thundercats gentrify. Next level beard vegan,
+  literally drinking vinegar kickstarter cray messenger bag venmo roof party.
+</blockquote>
+
+<blockquote display='warning'>
+  Subway tile pug locavore thundercats gentrify. Next level beard vegan,
+  literally drinking vinegar kickstarter cray messenger bag venmo roof party.
+</blockquote>
+
+<blockquote>
+  Subway tile pug locavore thundercats gentrify. Next level beard vegan,
+  literally drinking vinegar kickstarter cray messenger bag venmo roof party.
+  Wolf banh mi mixtape disrupt seitan cold-pressed. Beard ennui seitan
+  microdosing tofu bushwick put a bird on it man braid disrupt shaman roof party
+  locavore lumbersexual. Vegan bicycle rights shaman, humblebrag listicle tacos
+  fashion axe cronut.
+</blockquote>
+
+#### Javascript
+
+```js
+// comments
+const name = 'john'
+const channel = 'coding addict'
+
+function featuredProducts(data) {
+  return data.filter((item) => {
+    return item.featured === true
+  })
+}
+featuredProducts()
+```
+
+#### JSX
+
+```jsx
+import React from 'react'
+
+const Counter = () => {
+  const [count, setCount] = React.useState(0)
+  return (
+    <section className='counter'>
+      <h4>show some love to MDX</h4>
+      <h4>likes {count}</h4>
+      <button className='btn btn-danger' onClick={() => setCount(count + 1)}>
+        i like mdx
+      </button>
+    </section>
+  )
+}
+export default Counter
+```
+
+#### HTML
+
+```html
+<h1>hello world</h1>
+<p class="random">random text</p>
+<section class="contact">
+  <div class="title">
+    <h1>contact us</h1>
+  </div>
+</section>
+```
+
+#### CSS
+
+```css
+max-width: 500px;
+border-radius: var(--radius);
+padding: 1rem 1.5rem;
+background: var(--clr-grey-10);
+text-align: center;
+```
+
 <Link to='/posts' className='btn center-btn'>
   all posts
 </Link>
